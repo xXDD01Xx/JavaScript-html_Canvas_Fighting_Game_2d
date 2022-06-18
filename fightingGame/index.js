@@ -402,8 +402,6 @@ window.addEventListener('keyup', (event) =>               //setup event to regis
       keys.ArrowLeft.pressed = false
       break
   }
-
-  console.log(event.key);
 })
 
 
