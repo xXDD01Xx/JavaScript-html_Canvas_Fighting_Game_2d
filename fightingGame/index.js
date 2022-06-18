@@ -318,7 +318,7 @@ function animate()                           // animation function
   }
 
   //enemy misses
-  if (enemy.isAttacking && player.framesCurrent === 3)
+  if (enemy.isAttacking && enemy.framesCurrent === 3)
   {
     enemy.isAttacking = false
   }
