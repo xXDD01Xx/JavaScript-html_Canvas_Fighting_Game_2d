@@ -82,7 +82,7 @@ class Fighter extends Sprite
     this.velocity = velocity
     this.width = 50
     this.height = 150
-    // this.lastKey
+    this.lastKey
     this.attackBox =                    //create attackBox
       {
         position:
@@ -95,7 +95,7 @@ class Fighter extends Sprite
         height: attackBox.height,
       }
     this.color = color
-    // this.isAttacking
+    this.isAttacking
     this.health = 100
     this.framesCurrent = 0
     this.framesElapsed = 0
